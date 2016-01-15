@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu Light
+ Copyright (C) 2009-2015 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuUQVINbB,.AJXCSSMenuUQVINbB_n,.AJXCSSMenuUQVINbB *,.AJXCSSMenuUQVINbB_n * {box-sizing:border-box;}
+.AJXCSSMenuUQVINbB {
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	line-height: 0;
+	background: #509629 url(ajxmenu_files/menu-bg.gif) top right;
+	text-align: center;
+}
+.AJXCSSMenuUQVINbB ul {position:relative;display:inline-block;margin:0;padding:0px 0px 0px 0px;list-style-type:none;}
+*+html .AJXCSSMenuUQVINbB ul {display:inline;}
+.AJXCSSMenuUQVINbB li {float:left;margin:0;}
+.AJXCSSMenuUQVINbB a,.AJXCSSMenuUQVINbB_n a {display:block;overflow:hidden;}
+.AJXCSSMenuUQVINbB>ul>li>a {height:31px;white-space:nowrap;padding:0 20px 0 20px;font:bold 12px Verdana,Arial,Helvetica,sans-serif;line-height:31px;text-decoration:none;text-transform:uppercase;text-align:center;border:0;color:#ffffff;background:url(ajxmenu_files/top.gif) no-repeat top right;}
+.AJXCSSMenuUQVINbB>ul>li:hover>a,.AJXCSSMenuUQVINbB>ul>li.ajxover>a {background:#316415 url(ajxmenu_files/top.gif) no-repeat bottom right;}

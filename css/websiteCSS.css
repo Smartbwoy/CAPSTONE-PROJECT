@@ -1,0 +1,334 @@
+ /* Importing Google Webfonts */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+.main {
+	margin: 0 auto;
+	width: 80%;
+	-webkit-box-shadow: 0px 0px 41px 14px #D7D7D7;
+	box-shadow: 0px 0px 41px 14px #D7D7D7;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main_conent {
+	width: 100%;
+	height: 600px;
+}
+.box{
+	width: 100%;
+
+	
+}
+#search {
+	border-radius: 30px;
+}
+.box .container-4 .icon {
+	border-radius: 7px;
+
+}
+.main .container-1 {
+	background-color: #30FF07;
+}
+.link-to-info {
+	border-top: thick solid #509629;
+	border-bottom: thick solid #509629;
+
+
+}
+
+
+.health-foods img {
+	width: 100%;
+	height: 146px;
+}
+ul.icon
+{
+	list-style-type: none;
+}
+
+ul.icon li
+{
+	    text-indent: -1.4em;
+}
+
+
+li.info:before { 
+	font-family: bullets;
+	content: "\e805";
+	float: left;
+	width: 1.4em;
+	color: #8c8
+ }
+ 
+/* Overlay when Modal is open */
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+/* Modal box or Popup box */
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+#modal_trigger  {
+	/* [disabled]margin: 100px auto; */
+	/* [disabled]width: 100px; */
+	/* [disabled]display: block; */
+}
+
+.btn  {
+	padding: 10px 20px;
+	background: #F4F4F2;
+}
+
+.btn_red  {
+    background:  #ED6347;
+     color:  #FFF;
+}
+
+.btn:hover  {
+    background:  #E4E4E2;
+}
+
+.btn_red:hover  {
+    background:  #C12B05;
+}
+
+a.btn  {
+    color: #666;
+     text-align:  center;
+     text-decoration:  none;
+}
+
+a.btn_red  {
+    color:  #FFF;
+}
+
+.one_half  {
+    width: 50%;
+     display:  block;
+     float: left;
+}
+
+.one_half.last  {
+    width: 45%;
+     margin-left: 5%;
+}
+/* Popup Styles*/
+.popupHeader  {
+    font-size: 16px;
+     text-transform:  uppercase;
+}
+
+.popupHeader  {
+    background: #F4F4F2;
+     position: relative;
+     padding: 10px 20px;
+     border-bottom: 1px solid #DDD;
+     font-weight: bold;
+}
+
+.popupHeader .modal_close  {
+    position:  absolute;
+     right:  0;
+     top: 0;
+     padding: 10px 15px;
+     background: #E4E4E2;
+     cursor:  pointer;
+     color: #aaa;
+     font-size: 16px;
+}
+
+.popupBody  {
+    padding: 20px;
+}
+/* Social Login Form */
+
+.social_login .social_box  {
+    display: block;
+     clear: both;
+     padding: 10px;
+     margin-bottom:  10px;
+     background:  #F4F4F2;
+     overflow:  hidden;
+}
+
+.social_login .icon  {
+    display: block;
+     width: 10px;
+     padding: 5px 10px;
+     margin-right:  10px;
+     float: left;
+     color: #FFF;
+     font-size: 16px;
+     text-align:  center;
+}
+ 
+.social_login .fb .icon  {
+    background: #3B5998;
+}
+
+.social_login .google .icon  {
+    background: #DD4B39;
+}
+
+.social_login .icon_title  {
+    display: block;
+     padding: 5px 0;
+     float: left;
+     font-weight:  bold;
+     font-size:  16px;
+     color: #777;
+}
+
+.social_login .social_box:hover  {
+    background:  #E4E4E2;
+}
+
+
+.centeredText  {
+    text-align:  center;
+     margin:  20px 0;
+     clear:  both;
+     overflow:  hidden;
+     text-transform:  uppercase;
+}
+
+
+.action_btns  {
+    clear: both;
+     overflow:  hidden;
+}
+
+.action_btns a  {
+    display:  block;
+}
+
+/* User Login Form */
+.user_login  {
+    display:  none;
+}
+
+.user_login label  {
+    display:  block;
+     margin-bottom: 5px;
+}
+
+.user_login input[type="text"],  .user_login input[type="email"],  .user_login input[type="password"]  {
+    display:  block;
+     width: 90%;
+     padding:  10px;
+     border: 1px solid #DDD;
+     color: #666;
+}
+
+.user_login input[type="checkbox"]  {
+    float: left;
+     margin-right: 5px;
+}
+
+.user_login input[type="checkbox"]+label  {
+    float: left;
+}
+
+
+.user_login .checkbox  {
+    margin-bottom:  10px;
+     clear:  both;
+     overflow:  hidden;
+}
+
+.forgot_password  {
+    display: block;
+     margin:  20px 0 10px;
+     clear:  both;
+     overflow:  hidden;
+     text-decoration:  none;
+     color: #ED6347;
+}
+/* User Register Form */
+.user_register  {
+    display:  none;
+}
+
+.user_register label  {
+    display:  block;
+     margin-bottom: 5px;
+}
+
+.user_register input[type="text"],  .user_register input[type="email"],  .user_register input[type="password"]  {
+    display:  block;
+     width: 90%;
+     padding:  10px;
+     border: 1px solid #DDD;
+     color: #666;
+}
+
+.user_register input[type="checkbox"]  {
+    float: left;
+     margin-right: 5px;
+}
+
+.user_register input[type="checkbox"]+label  {
+    float: left;
+}
+
+
+.user_register .checkbox  {
+    margin-bottom:  10px;
+     clear:  both;
+     overflow:  hidden;
+}
+
+facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ocial_login .fb .icon {
+	background: #3B5998;
+}
+hr  {
+	display: block;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 55px solid #FF0000;
+}
+
+
+.social_login .icon {
+	display: block;
+	width: 13px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	float: left;
+	color: #FFF;
+	font-size: 16px;
+	text-align: center;
+}
+
+.fa-google-plus:before {
+	content: "\f0d5"
+}
