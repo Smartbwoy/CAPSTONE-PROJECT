@@ -37,9 +37,9 @@
 <body>
 <div class="box">
   <div class="container-4">
-    <input type="search" id="search" placeholder="Search..." />
-    <button class="icon"><i class="fa fa-search"><!--<img src="img/ic_search_48px-128.png" width="12" height="12" alt=""/>--></i></button>
-    
+  <form id="tfnewsearch">
+		   <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton" width="20px">
+		</form>
     <a id="modal_trigger" href="#modal" class="btn">Click here to Login or register</a>
     <div id="modal" class="popupContainer" style=" display:none;">
 	<header class="popupHeader">
@@ -195,7 +195,7 @@
 <div style=" height:290px"></div>
 
 <hr>
-
+</div>
 <footer>
 <div></div>
 <div></div>
@@ -235,7 +235,8 @@ $(function () {
       //@ sourceURL=pen.js
     </script>
 
-</div>
 
+
+    
 </body>
 </html>

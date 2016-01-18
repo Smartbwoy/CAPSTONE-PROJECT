@@ -25,9 +25,6 @@ body {
 
 	
 }
-#search {
-	border-radius: 30px;
-}
 .box .container-4 .icon {
 	border-radius: 7px;
 
@@ -104,7 +101,7 @@ li.info:before {
 }
 
 .btn:hover  {
-    background:  #E4E4E2;
+	background-color: #488A21;
 }
 
 .btn_red:hover  {
@@ -112,9 +109,11 @@ li.info:before {
 }
 
 a.btn  {
-    color: #666;
-     text-align:  center;
-     text-decoration:  none;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bolder;
 }
 
 a.btn_red  {
@@ -310,7 +309,7 @@ facebook-f:before, .fa-facebook:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-ocial_login .fb .icon {
+.social_login .fb .icon {
 	background: #3B5998;
 }
 .main hr {
@@ -339,3 +338,47 @@ ocial_login .fb .icon {
 body hr {
 	
 }
+
+.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #498C22; border-right:0px;
+		background: #498C22;
+		background: -webkit-gradient(linear, left top, left bottom, from(#498C22), to(#498C22));
+		background: -moz-linear-gradient(top,  #498C22,  #498C22);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	#tfnewsearch{
+		width:25%;
+		max-width:25%
+	}
